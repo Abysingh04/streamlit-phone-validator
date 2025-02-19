@@ -71,3 +71,11 @@ if uploaded_file:
             file_name="validated_numbers.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         )
+
+def main():
+    
+  
+    st.write("**Important Instruction**: Your File must have Column called **< Phone_Number >** to work this code")
+
+if __name__ == "__main__":
+    main()
